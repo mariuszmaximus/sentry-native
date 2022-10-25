@@ -35,6 +35,8 @@ extern "C" {
 #include "client/settings.h"
 #if defined(_MSC_VER)
 #    include "util/win/termination_codes.h"
+#elif defined(__MINGW32__)
+#    include "util/win/termination_codes.h"
 #endif
 
 #if defined(__GNUC__)
