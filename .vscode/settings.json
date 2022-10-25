@@ -1,4 +1,5 @@
 {
+  "cmake.buildDirectory": "${workspaceFolder}/../${workspaceRootFolderName}_build_${buildKitTargetArch}_${buildKitVendor}_${buildType}",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.formatOnType": true,
